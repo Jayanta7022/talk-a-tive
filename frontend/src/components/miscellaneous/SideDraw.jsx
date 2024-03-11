@@ -164,7 +164,7 @@ const SideDraw = () => {
                     setNotification(notification.filter((n) => n !== notif));
                   }}
                 >
-                  {console.log(loggedUser)}
+                  {/* {console.log(loggedUser)} */}
                   {console.log(getSender(loggedUser, notif.chat.users)+"   user:"+loggedUser.name+"  all users:"+notif.chat.users)}
                   {notif.chat.isGroupChat
                     ? `New Message in ${notif.chat.chatName}`
